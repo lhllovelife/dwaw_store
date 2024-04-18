@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T07:41:13.249Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="N7OnErFTH3cPYFhF7scz" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T07:45:34.352Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="C9IGcRYhOAH123ejPejS" version="24.2.3" type="github">
   <diagram name="第 1 页" id="WeP-PEQPvY2TcHaItDQe">
     <mxGraphModel dx="1502" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lOBtvMdINXQlJSERNrX8-2" value="服务状态：RUNNING&lt;br&gt;应急策略：OFF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;shadow=0;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="320" y="210" width="130" height="50" as="geometry" />
+          <mxGeometry x="342" y="210" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lOBtvMdINXQlJSERNrX8-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lOBtvMdINXQlJSERNrX8-4" target="lOBtvMdINXQlJSERNrX8-2">
           <mxGeometry relative="1" as="geometry" />
@@ -27,7 +27,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lOBtvMdINXQlJSERNrX8-4" value="服务状态：RUNNING&lt;br&gt;应急策略：ON" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="130" y="360" width="130" height="50" as="geometry" />
+          <mxGeometry x="152" y="360" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lOBtvMdINXQlJSERNrX8-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lOBtvMdINXQlJSERNrX8-5" target="lOBtvMdINXQlJSERNrX8-4">
           <mxGeometry relative="1" as="geometry" />
@@ -38,11 +38,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lOBtvMdINXQlJSERNrX8-5" value="服务状态：DEGRADED&lt;br&gt;应急策略：ON" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="490" y="360" width="130" height="50" as="geometry" />
+          <mxGeometry x="512" y="360" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lOBtvMdINXQlJSERNrX8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lOBtvMdINXQlJSERNrX8-29">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="385" y="210" as="targetPoint" />
+            <mxPoint x="407" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lOBtvMdINXQlJSERNrX8-34" value="程序启动，初始状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lOBtvMdINXQlJSERNrX8-33">
@@ -51,13 +51,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lOBtvMdINXQlJSERNrX8-29" value="uaa api &amp;amp;&amp;amp; uaa-admin" style="ellipse;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="90" width="130" height="60" as="geometry" />
+          <mxGeometry x="342" y="90" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lOBtvMdINXQlJSERNrX8-60" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Redis定时探活，正常&lt;br&gt;持续时间小于30min&lt;/span&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.24481200322379398;endAngle=0.1;gradientColor=default;fillColor=default;gradientDirection=north;rotation=15;" vertex="1" parent="1">
-          <mxGeometry x="40" y="350" width="100" height="100" as="geometry" />
+          <mxGeometry x="62" y="369" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="lOBtvMdINXQlJSERNrX8-61" value="" style="shape=stencil(fZbbbtswEES/Rq8Dksvrc5r+R4A4tVDXDhynl7/vEoIVL23Nm0z5kNTuzJCTPH3sX953U3Afl/Pp5+7P/HrZT/JtCmE+7nfn+aJPkzxP8vR2Ou9+nE+fx9fl9/tL/2d/+nX63Wf4u3C1QGqngvu3jISEuox8X4DDfLwBWkL2BhCdwhOgoSQDJIdSKCDZADmiRgJEJGeAUuHSNlD1G4oBaoML20ARlGaAlpHdNpAdvN2Sdw6OEDFft7wuUVHzNiAyLtEEoW0DIYydq4JKAH9XpuKRSSO8wNkVUkEl2vARLRgg6paINoKHt40Qj8CqpIAVk07B5BrvWq1lcGQF/cRiV9AyeAL0IrpxBVal3qbBowGFGWIVwlolHSH6/pLa2ocMTxx0o+bVpCp5lhsZye5JTcVc3S1pV1DbFuKgbnqrvh4M5Ks1VorVd48eoj4NrlxHgDVCozEMHl3j87G+0xiWPaCZqdOoPgUiqZLPiNZy1V+PgMd9QB3CVaiB9K1YYQgykZKDRJsZAY3Y50540fPIGPejkUCzfkwYDQzHQi9CBjsHJNZj9eJwIKIJDfpkde2vMnycYHfHIT95UkIqw/zs/1lPKuuCOGhaH77uG2/z4bBcV27fj/cTHVruNvL8Hw==);lineShape=1;strokeColor=default;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="834.921711523295" y="269.1127572633759" width="5.397288195368674" height="5.406250941885787" as="geometry" />
+          <mxGeometry x="856.92" y="270" width="5.4" height="4.52" as="geometry" />
+        </mxCell>
+        <mxCell id="lOBtvMdINXQlJSERNrX8-66" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="937" y="198" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lOBtvMdINXQlJSERNrX8-69" value="" style="shape=mxgraph.arrows2.wedgeArrow;html=1;bendable=0;startWidth=5;fillColor=strokeColor;defaultFillColor=invert;defaultGradientColor=invert;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="160.9" y="431" as="sourcePoint" />
+            <mxPoint x="168" y="413" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
